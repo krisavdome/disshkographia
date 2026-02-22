@@ -18,7 +18,7 @@ import (
 	"github.com/charmbracelet/wish/bubbletea"
 	"github.com/charmbracelet/wish/logging"
 
-	anim "github.com/krisavdome/diskographia/ascii"
+	anim "github.com/krisavdome/disshkographia/ascii"
 )
 
 const (
