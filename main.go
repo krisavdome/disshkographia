@@ -94,6 +94,8 @@ func teaHandler(s ssh.Session) (tea.Model, []tea.ProgramOption) {
 
 	renderer := bubbletea.MakeRenderer(s)
 
+	lipgloss.SetDefaultRenderer(renderer)
+
 	m := Model{
 		Anim:              anim.NewWithDefaults(),
 		width:             pty.Window.Width,
